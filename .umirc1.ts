@@ -1,13 +1,15 @@
 import { defineConfig } from '@umijs/max';
 
 export default defineConfig({
-  antd: {},
+  base: '/',
+  publicPath: '/static/',
+  outputPath: 'static',
   access: {},
   model: {},
   initialState: {},
   request: {},
   layout: {
-    // title: 'wangyi-project',
+    title: 'wangyi-project',
   },
   routes: [
     {
